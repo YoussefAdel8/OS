@@ -1,10 +1,11 @@
-public class semaphore {
+package Package;
+public class Semaphore {
     protected int value = 0 ;
-    protected semaphore()
+    protected Semaphore()
     {
         value = 0 ;
     }
-    protected semaphore(int initial)
+    protected Semaphore(int initial)
     {
         value = initial ;
     }
